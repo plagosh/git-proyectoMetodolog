@@ -9,3 +9,14 @@ C:\newapp\bin\Debug\netcoreapp2.1\newapp.dll
 C:\newapp\bin\Debug\netcoreapp2.1\newapp.pdb
 C:\newapp\obj\Debug\netcoreapp2.1\newapp.dll
 C:\newapp\obj\Debug\netcoreapp2.1\newapp.pdb
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.dll
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.pdb
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\bin\Debug\netcoreapp2.1\newapp.deps.json
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\bin\Debug\netcoreapp2.1\newapp.runtimeconfig.json
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\bin\Debug\netcoreapp2.1\newapp.runtimeconfig.dev.json
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\bin\Debug\netcoreapp2.1\newapp.dll
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\bin\Debug\netcoreapp2.1\newapp.pdb
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.csprojAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.AssemblyInfoInputs.cache
+C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.AssemblyInfo.cs

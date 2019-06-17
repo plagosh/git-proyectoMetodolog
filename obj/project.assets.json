@@ -1956,30 +1956,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\plago\\.nuget\\packages\\": {},
+    "C:\\Users\\Mauricio\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\newapp\\newapp.csproj",
+      "projectUniqueName": "C:\\Users\\Mauricio\\Desktop\\Repositorios\\git-proyectoMetodolog\\newapp.csproj",
       "projectName": "newapp",
-      "projectPath": "C:\\newapp\\newapp.csproj",
-      "packagesPath": "C:\\Users\\plago\\.nuget\\packages\\",
-      "outputPath": "C:\\newapp\\obj\\",
+      "projectPath": "C:\\Users\\Mauricio\\Desktop\\Repositorios\\git-proyectoMetodolog\\newapp.csproj",
+      "packagesPath": "C:\\Users\\Mauricio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mauricio\\Desktop\\Repositorios\\git-proyectoMetodolog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\plago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Mauricio\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2001,7 +1999,6 @@
             "version": "[1.60.9, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
