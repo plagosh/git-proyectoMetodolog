@@ -1,0 +1,5 @@
+bin 
+prompt 
+cd Respaldos 
+put “respaldoftp”.txt 
+bye 

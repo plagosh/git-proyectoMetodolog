@@ -17,41 +17,41 @@ namespace newapp
             while (stop != 0)
             {
                 string eleccion;
-                Console.Write("Elija Opción a realizar:\n1.-Mostras tabla predeterminada de Access\n2.-Ejecutar Script FTP.\n0.-Salir\n");
+                Console.Write("Elija Opción a realizar:\n1.-Mostras tabla predeterminada de Access\n2.-Generar respaldo FTP.\n0.-Salir\n");
                 eleccion = Console.ReadLine();
                 int opcion = Convert.ToInt32(eleccion);
-                FileStream archivo = new FileStream("c:\\Users\\Mauricio\\Desktop\\Repositorios\\git-proyectoMetodolog\\docbat\\respaldoftp.txt", FileMode.OpenOrCreate, FileAccess.Write);
-                StreamWriter escritura = new StreamWriter(archivo);
                 if (opcion == 0)
                 {
                     Console.Write("Programa Terminado");
-                    System.Environment.Exit(1);               
+                    System.Environment.Exit(1);
                 }
                 else if (opcion == 1)
                 {
                     using (OdbcConnection db = new OdbcConnection(GetConnectionString()))
                     {
-                        var queryText = QueryText();
-                        var data = db.Query(queryText).ToList();
-
-                        foreach (var item in data)
+                        using (StreamWriter archivo = new StreamWriter(@"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\respaldo-ftp.txt"))
                         {
-                            Console.WriteLine(item);
-                            escritura.WriteLine(item);
+                            {
+                                var queryText = QueryText();
+                                var data = db.Query(queryText).ToList();
+                                foreach (var item in data)
+                                {
+                                    archivo.WriteLine(item);
+                                    Console.WriteLine(item);
+
+                                }
+                            }
                         }
                     }
-                    archivo.Close();
-                    string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
-                    string QueryText(string table = "Doctors") => $"SELECT * FROM {table}";
-                    
+                        string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
+                        string QueryText(string table = "Doctors") => $"SELECT * FROM {table}";   
                 }
                 else if (opcion == 2)
                 {
-                   
+
                     //Cambiar ruta segun destino de archivo.
                     System.Diagnostics.Process.Start(@"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\ftpconeccion.bat");
                     Console.Write("> Ejecutando .bat < ...\n");
-                    Console.ReadLine();
                     System.Environment.Exit(1);
                 }
             }

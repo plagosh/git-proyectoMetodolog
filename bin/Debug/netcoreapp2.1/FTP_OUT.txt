@@ -1,0 +1,9 @@
+ftp> bin 
+Desconectado.
+ftp> prompt 
+Modo interactivo Desactivado .
+ftp> cd Respaldos 
+Desconectado.
+ftp> put "respaldoftp".txt 
+Desconectado.
+ftp> bye 

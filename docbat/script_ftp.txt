@@ -1,0 +1,8 @@
+escuelam
+-infominz-2018
+binary 
+cd public_ftp
+lcd C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat
+put respaldo-ftp.txt
+close
+bye
