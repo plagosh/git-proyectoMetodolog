@@ -24,7 +24,7 @@ namespace newapp
                 {
                     using (OdbcConnection db = new OdbcConnection(GetConnectionString()))
                     {
-                        using (StreamWriter archivo = new StreamWriter(@"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\respaldo-ftp.txt"))
+                        using (StreamWriter archivo = new StreamWriter(@"C:\Nueva carpeta\docbat\respaldo-ftp.txt"))
                         {
                             {
                                 var queryText = QueryText();
@@ -39,12 +39,12 @@ namespace newapp
                         }
                     }
                     string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
-                    string QueryText(string table = "Groups") => ($"SELECT * FROM {table}" + $"SELECT * FROM {table}");
+                    string QueryText(string table = "Groups") => $"SELECT * FROM {table}";
                 }
                 else if (opcion == 2)
                 {
                     //Cambiar ruta segun destino de archivo.
-                    System.Diagnostics.Process.Start(@"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\ftpconeccion.bat");
+                    System.Diagnostics.Process.Start(@"C:\Nueva carpeta\docbat\ftpconeccion.bat");
                     stop = 0;
                     Console.Write("> Ejecutando .bat < ...\n");
                 }

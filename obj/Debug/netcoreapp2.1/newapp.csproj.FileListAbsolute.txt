@@ -20,3 +20,14 @@ C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreap
 C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.csproj.CoreCompileInputs.cache
 C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.AssemblyInfoInputs.cache
 C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\obj\Debug\netcoreapp2.1\newapp.AssemblyInfo.cs
+C:\Nueva carpeta\bin\Debug\netcoreapp2.1\newapp.deps.json
+C:\Nueva carpeta\bin\Debug\netcoreapp2.1\newapp.runtimeconfig.json
+C:\Nueva carpeta\bin\Debug\netcoreapp2.1\newapp.runtimeconfig.dev.json
+C:\Nueva carpeta\bin\Debug\netcoreapp2.1\newapp.dll
+C:\Nueva carpeta\bin\Debug\netcoreapp2.1\newapp.pdb
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.csprojAssemblyReference.cache
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.csproj.CoreCompileInputs.cache
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.AssemblyInfoInputs.cache
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.AssemblyInfo.cs
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.dll
+C:\Nueva carpeta\obj\Debug\netcoreapp2.1\newapp.pdb
