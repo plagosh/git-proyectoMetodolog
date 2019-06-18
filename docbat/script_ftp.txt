@@ -1,7 +1,7 @@
-escuelam
--infominz-2018
+unab-proyecto@escuelaministrozenteno.cl
+-unab2019-
 binary 
-cd public_ftp
+cd Respaldo
 lcd C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat
 put respaldo-ftp.txt
 close
