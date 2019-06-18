@@ -20,12 +20,7 @@ namespace newapp
                 Console.Write("Elija Opción a realizar:\n1.-Mostras tabla predeterminada de Access\n2.-Generar respaldo FTP.\n0.-Salir\n");
                 eleccion = Console.ReadLine();
                 int opcion = Convert.ToInt32(eleccion);
-                if (opcion == 0)
-                {
-                    Console.Write("Programa Terminado");
-                    System.Environment.Exit(1);
-                }
-                else if (opcion == 1)
+                if (opcion == 1)
                 {
                     using (OdbcConnection db = new OdbcConnection(GetConnectionString()))
                     {
@@ -43,16 +38,19 @@ namespace newapp
                             }
                         }
                     }
-                        string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
-                        string QueryText(string table = "Doctors") => $"SELECT * FROM {table}";   
+                    string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
+                    string QueryText(string table = "Groups") => ($"SELECT * FROM {table}" + $"SELECT * FROM {table}");
                 }
                 else if (opcion == 2)
                 {
-
                     //Cambiar ruta segun destino de archivo.
                     System.Diagnostics.Process.Start(@"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\ftpconeccion.bat");
+                    stop = 0;
                     Console.Write("> Ejecutando .bat < ...\n");
-                    System.Environment.Exit(1);
+                }
+                else
+                {
+                    stop = 0;
                 }
             }
         }
