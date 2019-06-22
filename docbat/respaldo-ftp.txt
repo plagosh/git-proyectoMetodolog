@@ -1,3 +1,5 @@
-{DapperRow, Group_id = '1', Group_Name = 'Cardio'}
-{DapperRow, Group_id = '2', Group_Name = 'Grupo 3'}
-{DapperRow, Group_id = '3', Group_Name = ''}
+{DapperRow, Referral_Doctor_id = '1', Referral_doctor = 'Smith'}
+{DapperRow, Referral_Doctor_id = '2', Referral_doctor = 'Dr. Torres'}
+{DapperRow, Referral_Doctor_id = '3', Referral_doctor = ''}
+{DapperRow, Referral_Doctor_id = '4', Referral_doctor = 'aninat'}
+{DapperRow, Referral_Doctor_id = '5', Referral_doctor = 'BAC'}
