@@ -3,9 +3,11 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Runtime;
 using System.Threading.Tasks;
 using Dapper;
 using System.Data.Odbc;
+
 
 namespace newapp
 {
@@ -14,8 +16,8 @@ namespace newapp
         static void Main(string[] args)
         {
             int stop = 1;
-            string RutaBat = @"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\ftpconeccion.bat";
-            string RutaArchivo = @"C:\Users\Mauricio\Desktop\Repositorios\git-proyectoMetodolog\docbat\respaldo-ftp.txt";
+            string RutaBat = @"C:\Nueva carpeta\docbat\ftpconeccion.bat";
+            string RutaArchivo = @"C:\Nueva carpeta\docbat\respaldo-ftp.txt";
             string opciones = "Elija Opción a realizar:\n1.-Mostras tabla predeterminada de Access.\n2.-Generar archivo txt.\n3.-Generar coneccion a FTP.\n4.-Ejecutar todo.\n0.-Salir\n";
             string GetConnectionString(string dbName = "Ergosana.mdb") => $"Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq=C:\\{dbName}";
             string QueryText(string table = "Doctors") => $"SELECT * FROM {table}";
